@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.img{
+    padding-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+}
+
+.formulario{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    padding: 3rem;
+}
+
+.input{
+    margin: 300px;
+    margin-right: 400px;
+    padding: 50px;
+}
+.input #email{
+    padding: 5px;
+    padding-right: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input #senha{
+    padding: 5px;
+    padding-right: 65px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.btn button{
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(243, 241, 245);
+    background-color:  #0404f2;
+}
+nav{
+    background-color: #000000c0;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color:#0404f2;
+}
+
+

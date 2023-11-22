@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+        <div class="Container">
+            <div class="formulario-img">
+                <img src="imagem/centro.jpeg" alt="" width="600px" >
+            </div>
+            <div class="formulario">
+                
+                <form action="#">
+                    <div class="formulario-header">
+                    <header>
+                        
+                        <div class="title">
+                            <h1>Cadastro</h1>
+                        </div>
+
+                    </header>
+               
+                    <main>
+                        <div class="input_box">
+                            <div class="input">
+                                <label for="email">E-mail</label><br>
+                                <input type="email" name="email" id="email" placeholder="Ex:albert@gmail.com" required><br>
+                             </div>
+                             <div class="input">
+                                <label for="senha">Senha</label><br>
+                                <input type="password" name="senha" id="password" placeholder="Digite sua senha..." required><br>
+                             </div>
+                             <div class="input">
+                                <label for="Nome">Nome</label><br>
+                                <input type="text" name="Nome" id="nome" placeholder="Nome Completo" required><br>
+                             </div>
+                             <div class="input">
+                                <label for="Endereco">Endereço</label><br>
+                                <input type="text" name="Endereco" id="Endereco" placeholder="Endereço completo" required><br>
+                             </div>
+                             <div class="input">
+                                <label for="Complemento">Complemento</label><br>
+                                <input type="text" name="Complemento" id="Complemento" placeholder="Caso haja completo" required><br>
+                             </div>
+                             <div class="input">
+                                <label for="Celular">Celular</label><br>
+                                <input type="tel" name="celular" id="number" placeholder="(xx)xxxxx-xxxx" required>
+                             </div>
+                             <div class="input">
+                                <label for="CPF">CPF</label><br>
+                                <input type="text" name="CPF" id="number" placeholder="Insira seu CPF" required>
+                             </div>
+
+
+                             <div class="container-genero">
+                                <div class="genero-titulo">
+                                    <h6>Gênero:</h6><br><br><br><br><br>
+                                </div>
+
+
+
+                                <div class="genero-box">
+
+                                    <div class="genero-input">
+                                         <input type="radio" id="Female" name="gender">
+                                         <label for="Female">Feminino</label>
+                                     </div>
+
+                                     <div class="genero-box">
+                                         <input type="radio" id="Others" name="gender">
+                                         <label for="Others">Outros</label>
+                                     </div>
+
+                                     <div class="genero-box">
+                                         <input type="radio" id="male" name="gender">
+                                         <label for="male">Masculino</label>
+                                     </div>
+
+                                     <div class="genero-box">
+                                         <input type="radio" id="none" name="gender">
+                                         <label for="none">Prefiro não informar</label>
+                                     </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </main> 
+                 </div>
+                    <footer>
+                    <div class="btn-continuar">
+                        <button><a href="#">Continuar</a></button>
+                    </div> 
+                </footer>
+                </form>         
+            </div>     
+        </div>
+</body>
+</html>
