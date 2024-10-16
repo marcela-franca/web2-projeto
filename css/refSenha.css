@@ -1,15 +1,15 @@
-* {
+
+*{
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
 }
-
-body {
+body{
     background-color: #ffff;
     font-family: 'Libre Baskerville', serif;
 }
 
-.img {
+.img{
     padding-top: 90px;
     margin-bottom: 100px;
     margin-left: 10%;
@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-.formulario {
+.formulario{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -28,68 +28,61 @@ body {
     padding: 3rem;
 }
 
-label {
-    color: rgb(223, 216, 120);
+label{
+    color: rgb(227, 117, 117);
 }
 
-.input {
+.input{
     margin-top: 150px;
     margin-right: 2000px;
     padding: 50px;
-
+    
 }
 
-.input #email {
+.input #password{
+    padding: 5px;
+    padding-right: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(229, 231, 197);
+    border-color:  rgb(227, 117, 117);
+    border-radius: 10px;
+   
+}
+.input #senha{
     padding: 15px;
     padding-right: 70px;
     margin-top: 30px;
     margin-bottom: 15px;
     background-color: rgb(229, 231, 197);
-    border-color: rgb(223, 216, 120);
+    border-color:  rgb(227, 117, 117);
     border-radius: 10px;
-}
+}   
 
-
-.input #senha {
-    padding: 15px;
-    padding-right: 70px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    background-color: rgb(229, 231, 197);
-    border-color: rgb(223, 216, 120);
-    border-radius: 10px;
-}
-
-
-.btn {
+.btn{
     margin-top: 10px;
 }
 
-.btn button {
+.btn button{
     border-radius: 5px;
     padding: 10px;
     color: rgb(14, 12, 15);
-    background-color: rgb(238, 247, 122);
-    border-color: rgb(223, 216, 120);
-
+    background-color: rgb(227, 117, 117);
+    border-color: rgb(227, 117, 117);
 }
-
-nav {
-    background-color: rgb(218, 209, 116);
-
+nav{
+    background-color:rgb(227, 117, 117);
+    
 }
-
-nav li {
+nav li{
     display: inline-block;
 }
-
-nav li a {
+nav li a{
     display: inline-block;
     color: #ffff;
     text-decoration: none;
     padding: 15px;
 }
-
-nav li a:hover {
-    background-color: rgb(229, 231, 197);
+nav li a:hover{
+    background-color:rgb(229, 231, 197);
 }

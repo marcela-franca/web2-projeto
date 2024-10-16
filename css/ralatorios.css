@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(37, 37, 44);
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: rgb(229, 231, 197);
+}
+
+
+.container-img {
+    align-items: center;
+    padding-left: 250px;
+}
